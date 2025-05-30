@@ -1,0 +1,9 @@
+path: UAV_ONLY
+train: train/images
+val: valid/images
+test: test/images
+
+# Classes (1)
+names:
+  0: UAV
+

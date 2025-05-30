@@ -1,0 +1,73 @@
+
+Benchmarks complete for size_x.pt on drone.yaml at imgsz=640 (7326.22s)
+                  Format Status❔  Size (MB)  metrics/mAP50-95(B)  Inference time (ms/im)   FPS
+0                PyTorch       ✅      260.5               0.6196                  137.37  7.28
+1            TorchScript       ❌        0.0                  NaN                     NaN   NaN
+2                   ONNX       ✅      260.1               0.6166                 2324.63  0.43
+3               TensorRT       ✅      263.6               0.6168                  126.40  7.91
+4  TensorFlow SavedModel       ❌        0.0                  NaNNaN   NaN
+5        TensorFlow Lite       ❌        0.0                  NaN                     NaN   NaN
+                     
+Benchmarks complete for size_l.pt on drone.yaml at imgsz=640 (4850.98s)
+                   Format Status❔  Size (MB)  metrics/mAP50-95(B)  Inference time (ms/im)    FPS
+0                 PyTorch       ✅      166.9               0.6157                   89.28  11.20
+1             TorchScript       ❌        0.0                  NaN                     NaN    NaN
+2                    ONNX       ✅      166.6               0.6138                 1511.20   0.66
+3                OpenVINO       ❌        0.0                  NaN                     NaN    NaN
+4                TensorRT       ✅      170.3               0.6136                   76.24  13.12
+5                  CoreML       ❌        0.0                  NaN                     NaN    NaN
+6   TensorFlow SavedModel       ❌        0.0                  NaN                     NaN    NaN
+7     TensorFlow GraphDef       ❌        0.0                  NaN                     NaN    NaN
+8         TensorFlow Lite       ❌        0.0                  NaN                     NaN    NaN
+9     TensorFlow Edge TPU       ❌        0.0                  NaN                     NaN    NaN
+10          TensorFlow.js       ❌        0.0                  NaN                     NaN    NaN
+11           PaddlePaddle       ❌        0.0                  NaN                     NaN    NaN
+12                   NCNN       ❌        0.0                  NaN                     NaN    NaN
+
+Benchmarks complete for size_m.pt on drone.yaml at imgsz=640 (2683.68s)
+                   Format Status❔  Size (MB)  metrics/mAP50-95(B)  Inference time (ms/im)    FPS
+0                 PyTorch       ✅       99.0               0.6121                   57.25  17.47
+1             TorchScript       ❌        0.0                  NaN                     NaN    NaN
+2                    ONNX       ✅       98.8               0.6083                  765.65   1.31
+3                OpenVINO       ❌        0.0                  NaN                     NaN    NaN
+4                TensorRT       ✅      102.2               0.6084                   51.01  19.60
+5                  CoreML       ❌        0.0                  NaN                     NaN    NaN
+6   TensorFlow SavedModel       ❌        0.0                  NaN                     NaN    NaN
+7     TensorFlow GraphDef       ❌        0.0                  NaN                     NaN    NaN
+8         TensorFlow Lite       ❌        0.0                  NaN                     NaN    NaN
+9     TensorFlow Edge TPU       ❌        0.0                  NaN                     NaN    NaN
+10          TensorFlow.js       ❌        0.0                  NaN                     NaN    NaN
+11           PaddlePaddle       ❌        0.0                  NaN                     NaN    NaN
+12                   NCNN       ❌        0.0                  NaN                     NaN    NaN
+
+Benchmarks complete for size_s.pt on drone.yaml at imgsz=640 (1305.39s)
+                   Format Status❔  Size (MB)  metrics/mAP50-95(B)  Inference time (ms/im)    FPS
+0                 PyTorch       ✅       42.8               0.5965                   24.28  41.18
+1             TorchScript       ❌        0.0                  NaN                     NaN    NaN
+2                    ONNX       ✅       42.6               0.5924                  320.24   3.12
+3                OpenVINO       ❌        0.0                  NaN                     NaN    NaN
+4                TensorRT       ✅       45.7               0.5925                   20.34  49.17
+5                  CoreML       ❌        0.0                  NaN                     NaN    NaN
+6   TensorFlow SavedModel       ❌        0.0                  NaN                     NaN    NaN
+7     TensorFlow GraphDef       ❌        0.0                  NaN                     NaN    NaN
+8         TensorFlow Lite       ❌        0.0                  NaN                     NaN    NaN
+9     TensorFlow Edge TPU       ❌        0.0                  NaN                     NaN    NaN
+10          TensorFlow.js       ❌        0.0                  NaN                     NaN    NaN
+11           PaddlePaddle       ❌        0.0                  NaN                     NaN    NaN
+12                   NCNN       ❌        0.0                  NaN                     NaN    NaN
+
+Benchmarks complete for size_t.pt on drone.yaml at imgsz=640 (748.95s)
+                   Format Status❔  Size (MB)  metrics/mAP50-95(B)  Inference time (ms/im)    FPS
+0                 PyTorch       ✅       11.8               0.5682                   21.20  47.16
+1             TorchScript       ❌        0.0                  NaN                     NaN    NaN
+2                    ONNX       ✅       11.7               0.5650                  133.07   7.51
+3                OpenVINO       ❌        0.0                  NaN                     NaN    NaN
+4                TensorRT       ✅       15.1               0.5651                   10.89  91.79
+5                  CoreML       ❌        0.0                  NaN                     NaN    NaN
+6   TensorFlow SavedModel       ❌        0.0                  NaN                     NaN    NaN
+7     TensorFlow GraphDef       ❌        0.0                  NaN                     NaN    NaN
+8         TensorFlow Lite       ❌        0.0                  NaN                     NaN    NaN
+9     TensorFlow Edge TPU       ❌        0.0                  NaN                     NaN    NaN
+10          TensorFlow.js       ❌        0.0                  NaN                     NaN    NaN
+11           PaddlePaddle       ❌        0.0                  NaN                     NaN    NaN
+12                   NCNN       ❌        0.0                  NaN                     NaN    NaN
